@@ -1,0 +1,18 @@
+Register Customer (POST /api/customer/register)
+
+{
+  "customerId": 1,
+  "registrationId": 320,
+  "checkinDate": "2014-01-01",
+  "checkoutDate": "2024-01-15"
+}
+Cancel Registration (POST /api/customer/cancel)
+
+{
+  "customerId": 1,
+  "registrationId": 320
+}
+
+Endpoints:
+POST /api/customer/register: To register a customer with check-in and check-out dates.
+POST /api/customer/cancel: To cancel an existing customer registration.
